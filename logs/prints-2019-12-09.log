@@ -1,0 +1,4 @@
+09:24:31.266 [main] INFO  TestFramework.basics3 - {"status":"OK","place_id":"2e373c6c49aa4f8d3db5c514bf58a70f","scope":"APP","reference":"d639cb81cfad1efce336b37bc452d1f8d639cb81cfad1efce336b37bc452d1f8","id":"d639cb81cfad1efce336b37bc452d1f8"}
+09:24:31.298 [main] INFO  TestFramework.basics3 - 2e373c6c49aa4f8d3db5c514bf58a70f
+09:24:31.826 [main] INFO  TestFramework.basics3 - Host informationhttp://216.10.245.166
+09:25:04.428 [main] INFO  TestFramework.basics3 - Host informationhttp://216.10.245.166

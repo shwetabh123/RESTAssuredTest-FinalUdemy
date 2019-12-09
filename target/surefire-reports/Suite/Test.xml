@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-76PGCCB3" name="TestFramework.basics" tests="4" failures="0" timestamp="9 Dec 2019 00:51:36 GMT" time="3.313" errors="0">
+  <testcase name="getPlaceAPI" time="2.419" classname="TestFramework.basics"/>
+  <testcase name="createPlaceAPI" time="0.193" classname="TestFramework.basics2"/>
+  <testcase name="AddandDeletePlace" time="0.417" classname="TestFramework.basics3"/>
+  <testcase name="postDataXML" time="0.269" classname="TestFramework.basics4"/>
+</testsuite>

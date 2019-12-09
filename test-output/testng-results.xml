@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7646" started-at="2019-12-09T09:25:00 IST" finished-at="2019-12-09T09:25:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7646" started-at="2019-12-09T09:25:00 IST" finished-at="2019-12-09T09:25:07 IST">
+      <class name="TestFramework.basics2">
+        <test-method status="PASS" signature="createPlaceAPI()[pri:0, instance:TestFramework.basics2@13b6aecc]" name="createPlaceAPI" duration-ms="356" started-at="2019-12-09T09:25:04 IST" finished-at="2019-12-09T09:25:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaceAPI -->
+      </class> <!-- TestFramework.basics2 -->
+      <class name="TestFramework.basics5">
+        <test-method status="PASS" signature="extractingNamesAPI()[pri:0, instance:TestFramework.basics5@158a8276]" name="extractingNamesAPI" duration-ms="1993" started-at="2019-12-09T09:25:05 IST" finished-at="2019-12-09T09:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractingNamesAPI -->
+      </class> <!-- TestFramework.basics5 -->
+      <class name="TestFramework.basics3">
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basics3@609cd4d8]" name="getData" is-config="true" duration-ms="16" started-at="2019-12-09T09:25:00 IST" finished-at="2019-12-09T09:25:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="AddandDeletePlace()[pri:0, instance:TestFramework.basics3@609cd4d8]" name="AddandDeletePlace" duration-ms="833" started-at="2019-12-09T09:25:04 IST" finished-at="2019-12-09T09:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddandDeletePlace -->
+      </class> <!-- TestFramework.basics3 -->
+      <class name="TestFramework.basics4">
+        <test-method status="PASS" signature="getData()[pri:0, instance:TestFramework.basics4@17f7cd29]" name="getData" is-config="true" duration-ms="0" started-at="2019-12-09T09:25:00 IST" finished-at="2019-12-09T09:25:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="postDataXML()[pri:0, instance:TestFramework.basics4@17f7cd29]" name="postDataXML" duration-ms="715" started-at="2019-12-09T09:25:05 IST" finished-at="2019-12-09T09:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDataXML -->
+      </class> <!-- TestFramework.basics4 -->
+      <class name="TestFramework.basics">
+        <test-method status="PASS" signature="getPlaceAPI()[pri:0, instance:TestFramework.basics@7d8704ef]" name="getPlaceAPI" duration-ms="3682" started-at="2019-12-09T09:25:00 IST" finished-at="2019-12-09T09:25:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceAPI -->
+      </class> <!-- TestFramework.basics -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

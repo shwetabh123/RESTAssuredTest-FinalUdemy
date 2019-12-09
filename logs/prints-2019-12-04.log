@@ -1,0 +1,4 @@
+07:32:56.352 [main] INFO  TestFramework.basics3 - {"status":"OK","place_id":"a394aa6628481503ab32e0a67fd12767","scope":"APP","reference":"f41e66ec21259f4bf8d61bb803a60bfaf41e66ec21259f4bf8d61bb803a60bfa","id":"f41e66ec21259f4bf8d61bb803a60bfa"}
+07:32:56.370 [main] INFO  TestFramework.basics3 - a394aa6628481503ab32e0a67fd12767
+07:33:12.560 [main] INFO  TestFramework.basics3 - Host informationhttp://216.10.245.166
+07:33:15.199 [main] INFO  TestFramework.basics3 - {"status":"OK","place_id":"7c33a02fd93b213b443384709360267a","scope":"APP","reference":"3482ad6d2e76bea6f6a9b4155a4133183482ad6d2e76bea6f6a9b4155a413318","id":"3482ad6d2e76bea6f6a9b4155a413318"}
