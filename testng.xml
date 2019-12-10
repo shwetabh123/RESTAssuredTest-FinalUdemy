@@ -9,6 +9,7 @@
       <class name="TestFramework.basics4"/>
     
        <class name="TestFramework.basics5"/>
+     <class name="TestFramework.OAuthTest"/>
     
     </classes>
   </test> <!-- Test -->
