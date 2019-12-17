@@ -52,9 +52,13 @@ public class basics3 {
 		//HOST=http://216.10.245.166
 		
 		RestAssured.baseURI= prop.getProperty("HOST");
+		
+		
 		Response res=given().
 				
 				//WORKING with both key & key 1
+				
+				
 				   //KEY=qaclick123
 				   //KEY1=AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y
 					//queryParam("key",prop.getProperty("KEY")).
@@ -62,6 +66,8 @@ public class basics3 {
 					//queryParam("key","qaclick123").
 					
 					queryParam("key","AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y").
+					
+					
 		body(payLoad.getPostData()).
 		
 		
@@ -94,13 +100,22 @@ public class basics3 {
 		  given(). 
 		  queryParam("key","AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y").
 		  
-		  body("{"+ "\"place_id\": \""+placeid+"\""+ "}"). when().
+		  body("{"+ "\"place_id\": \""+placeid+"\""+ "}").
+		  
+		  
+		  when().
 		 
 		  post("/maps/api/place/delete/json").
 		  
 		  then().
 		  
-		  assertThat().statusCode(200).and().contentType(ContentType.JSON).and()
+		  assertThat().
+		  
+		  statusCode(200).
+		  
+		  and().contentType(ContentType.JSON).
+		  
+		  and()
 		  . body("status",equalTo("OK"));
 		 
 		

@@ -22,10 +22,14 @@ public class ReusableMethods {
 	
 	public static JsonPath rawToJson(Response r)
 	{ 
-		String respon=r.asString();
-		JsonPath x=new JsonPath(respon);
+		String respon=r.asString();// Convert Raw to String
+		JsonPath x=new JsonPath(respon);  //Convert String to Json
 		return x;
 	}
+	
+	
+	
+	
 	public static String getSessionKEY()
 	{
 		RestAssured.baseURI= "http://localhost:8080";

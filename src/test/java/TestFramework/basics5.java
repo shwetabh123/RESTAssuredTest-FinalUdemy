@@ -22,8 +22,6 @@ public class basics5 {
 	@Test
 public void extractingNamesAPI()
 {
-		// TODO Auto-generated method stub
-
 		
 	//	https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=500&key=AIzaSyDIQgAh0B4p0SdyYkyW8tlG-y0yJMfss5Y
 			
